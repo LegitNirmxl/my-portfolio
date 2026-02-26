@@ -70,7 +70,7 @@
             
                     <div class="about-image">
                         <div class="image-container">
-                            <img src="images\myself.jpeg" alt="Nirmal Singh" class="profile-pic">
+                            <img src="d:\Users\HP\Downloads\Potfolio Website\images\myself.jpeg" alt="Nirmal Singh" class="profile-pic">
                          </div>
                     </div>
                       
@@ -216,88 +216,114 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-<section id="portfolio" class="section">
+    <!-- =======================
+     Modern Portfolio Section
+======================== -->
+<section id="portfolio" class="portfolio-section">
+                                                     <!-- extra down -->
+     <!-- =======================
+     Creative Portfolio Section
+======================== -->
+<section id="portfolio" class="portfolio-section">
     <div class="container">
-        <h2 class="section-title">Portfolio</h2>
-        <div class="portfolio-filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="design">Design</button>
-            <button class="filter-btn" data-filter="branding">Branding</button>
-            <button class="filter-btn" data-filter="infographic">Infographic</button>
+        <h2 class="section-title">Creative Designs</h2>
+        <p class="section-subtitle">
+            Canva-based promotional posters, banners and branding projects
+        </p>
+
+        <div class="design-grid">
+
+            <!-- College Admission Poster -->
+            <div class="design-card">
+                <img src="d:\Users\HP\Downloads\Potfolio Website\images\College Admission Open.jpeg" alt="College Admission Poster">
+                <div class="design-overlay">
+                    <h3>College Admission Open</h3>
+                    <p>Promotional poster designed in Canva for college admissions campaign.</p>
+                    <span class="design-tag">Poster Design</span>
+                </div>
+            </div>
+
+            <!-- Komal Creation Banner -->
+            <div class="design-card">
+                <img src="d:\Users\HP\Downloads\Potfolio Website\images\creation punjabi.jpeg" alt="Komal Creation Banner">
+                <div class="design-overlay">
+                    <h3>Komal Creation</h3>
+                    <p>Business promotional banner designed using Canva.</p>
+                    <span class="design-tag">Business Banner</span>
+                </div>
+            </div>
+
+            <!-- Stitching Center Banner -->
+            <div class="design-card">
+                <img src="d:\Users\HP\Downloads\Potfolio Website\images\Visit Now 2nd.jpeg" alt="Stitching Center Banner">
+                <div class="design-overlay">
+                    <h3>Stitching Center Banner</h3>
+                    <p>Creative advertisement banner for tailoring & stitching services.</p>
+                    <span class="design-tag">Brand Promotion</span>
+                </div>
+            </div>
+
         </div>
-        <div class="portfolio-grid">
-            <!-- Project 1 -->
-            <div class="portfolio-item" data-category="design">
-                <div class="portfolio-image">
-                    <img src="images/komal-creation.jpg" alt="Komal Creation">
-                    <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">Komal Creation</h3>
-                        <p class="portfolio-description">Creative Design Project</p>
-                        <a href="images/komal-creation.jpg" class="btn btn-primary btn-small" target="_blank">View Project</a>
+    </div>
+                            <!-- extra up -->
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">A showcase of my technical and creative work</p>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="network">Networking</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-container">
+
+            <!-- Project Card -->
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <img src="d:\Users\HP\Downloads\Potfolio Website\images\College Admission Open.jpeg" alt="Project">
+                </div>
+                <div class="project-content">
+                    <h3>College Admission Portal</h3>
+                    <p>Dynamic admission website with responsive UI and modern design.</p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="btn-primary btn-small">Live</a>
+                        <a href="#" class="btn-secondary btn-small">Code</a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Project 2 -->
-            <div class="portfolio-item" data-category="branding">
-                <div class="portfolio-image">
-                    <img src="images/creation-punjabi.jpg" alt="Creation Punjabi">
-                    <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">Creation Punjabi</h3>
-                        <p class="portfolio-description">Branding Project</p>
-                        <a href="images/creation-punjabi.jpg" class="btn btn-primary btn-small" target="_blank">View Project</a>
+
+            <!-- Project Card -->
+            <div class="project-card" data-category="design">
+                <div class="project-img">
+                    <img src="d:\Users\HP\Downloads\Potfolio Website\images\Visit Now 2nd.jpeg" alt="Project">
+                </div>
+                <div class="project-content">
+                    <h3>Boutique Logo Design</h3>
+                    <p>Modern branding logo created for a fashion boutique.</p>
+
+                    <div class="project-tags">
+                        <span>Branding</span>
+                        <span>Logo</span>
+                        <span>Design</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="#" class="btn-primary btn-small">View</a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Project 3 -->
-            <div class="portfolio-item" data-category="design">
-                <div class="portfolio-image">
-                    <img src="images/college-admission.jpg" alt="College Admission Open">
-                    <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">College Admission Open</h3>
-                        <p class="portfolio-description">Promotional Design</p>
-                        <a href="images/college-admission.jpg" class="btn btn-primary btn-small" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Project 4 -->
-            <div class="portfolio-item" data-category="branding">
-                <div class="portfolio-image">
-                    <img src="images/boutique-logo.jpg" alt="Boutique Logo">
-                    <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">Boutique Logo</h3>
-                        <p class="portfolio-description">Logo Design</p>
-                        <a href="images/boutique-logo.jpg" class="btn btn-primary btn-small" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Project 5 -->
-            <div class="portfolio-item" data-category="design">
-                <div class="portfolio-image">
-                    <img src="images/visit-now-2nd.jpg" alt="Visit Now 2nd">
-                    <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">Visit Now 2nd</h3>
-                        <p class="portfolio-description">Marketing Material</p>
-                        <a href="images/visit-now-2nd.jpg" class="btn btn-primary btn-small" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Project 6 -->
-            <div class="portfolio-item" data-category="infographic">
-                <div class="portfolio-image">
-                    <img src="images/global-warming.jpg" alt="Global Warming Infographic">
-                    <div class="portfolio-overlay">
-                        <h3 class="portfolio-title">Global Warming Infographic</h3>
-                        <p class="portfolio-description">Educational Infographic</p>
-                        <a href="images/global-warming.jpg" class="btn btn-primary btn-small" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
@@ -498,5 +524,4 @@
         });
     </script>
 </body>
-
 </html>
