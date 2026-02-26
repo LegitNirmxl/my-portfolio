@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Creative Projects | Nirmal Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container container">
+            <a href="index.html" class="nav-logo">Nirmal Singh</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">My Creative Designs</h2>
+            <p class="section-subtitle">
+                Canva-based promotional banners and posters
+            </p>
+
+            <div class="design-grid">
+
+                <div class="design-card">
+                    <img src="images/college-admission.jpg" onclick="openPreview(this.src)">
+                    <div class="design-overlay">
+                        <h3>College Admission Open</h3>
+                        <p>Canva promotional poster.</p>
+                    </div>
+                </div>
+
+                <div class="design-card">
+                    <img src="images/komal-creation.jpg" onclick="openPreview(this.src)">
+                    <div class="design-overlay">
+                        <h3>Komal Creation Banner</h3>
+                        <p>Business promotional banner.</p>
+                    </div>
+                </div>
+
+                <div class="design-card">
+                    <img src="images/creation-punjabi.jpg" onclick="openPreview(this.src)">
+                    <div class="design-overlay">
+                        <h3>Stitching Center Banner</h3>
+                        <p>Advertisement banner design.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="imagePreviewModal" class="image-modal">
+        <span class="close-btn" onclick="closePreview()">&times;</span>
+        <img class="modal-content" id="previewImage">
+    </div>
+
+<script>
+function openPreview(src) {
+    document.getElementById("imagePreviewModal").style.display = "block";
+    document.getElementById("previewImage").src = src;
+}
+
+function closePreview() {
+    document.getElementById("imagePreviewModal").style.display = "none";
+}
+
+window.onclick = function(e) {
+    if (e.target.classList.contains("image-modal")) {
+        closePreview();
+    }
+}
+</script>
+
+</body>
+</html>
