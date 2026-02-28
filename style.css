@@ -502,7 +502,7 @@ body.light-theme .navbar {
 .about-text {
     background-color: var(--bg-secondary);
     padding: var(--spacing-lg);
-    border-radius: 16px;
+    border-radius:  12 px;
     box-shadow: var(--shadow-md);
 }
 
